@@ -1,0 +1,1 @@
+[05-May-2013 11:03:53 Europe/Helsinki] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'functions.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/avoindat/public_html/dashboard/info/index.php on line 1

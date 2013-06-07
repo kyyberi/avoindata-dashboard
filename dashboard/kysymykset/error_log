@@ -1,0 +1,291 @@
+[01-May-2013 11:22:19 Europe/Helsinki] PHP Question2Answer MySQL query error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where type='Q'' at line 1 - Query: select DISTINCT(title) AS title from qa_categories where categoryid='1' and where type='Q' ; 
+[01-May-2013 11:24:24 Europe/Helsinki] PHP Question2Answer MySQL query error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where type='Q'' at line 1 - Query: select DISTINCT(title) AS title from qa_posts where categoryid='1'  and where type='Q'; 
+[01-May-2013 11:27:11 Europe/Helsinki] PHP Question2Answer MySQL query error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and type='Q'' at line 1 - Query: select title from qa_posts where and type='Q'; 
+[01-May-2013 11:28:12 Europe/Helsinki] PHP Question2Answer MySQL query error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where type='Q'' at line 1 - Query: select DISTINCT(title) AS title from qa_categories where categoryid='1' where type='Q' ;
+[01-May-2013 11:29:18 Europe/Helsinki] PHP Question2Answer MySQL query error 1054: Unknown column 'type' in 'where clause' - Query: select DISTINCT(title) AS title from qa_categories where categoryid='1' and type='Q' ;
+[01-May-2013 11:42:52 Europe/Helsinki] PHP Fatal error:  Call to undefined function sum() in /home/avoindat/public_html/dashboard/functions.php on line 422
+[01-May-2013 11:44:26 Europe/Helsinki] PHP Question2Answer MySQL query error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where NOT(type='Q_HIDDEN')' at line 1 - Query: select title from qa_posts where categoryid='1' where NOT(type='Q_HIDDEN');
+[01-May-2013 11:54:08 Europe/Helsinki] PHP Fatal error:  Call to undefined function sum() in /home/avoindat/public_html/dashboard/functions.php on line 422
+[01-May-2013 17:56:37 Europe/Helsinki] PHP Question2Answer MySQL query error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and NOT(type='Q_HIDDEN') and type='Q'' at line 1 - Query: select postid, acount from qa_posts where and NOT(type='Q_HIDDEN') and type='Q'; 
+[06-Jun-2013 20:52:35 Europe/Helsinki] PHP Fatal error:  Cannot redeclare qa_most_votes_post() (previously declared in /home/avoindat/public_html/dashboard/functions.php:462) in /home/avoindat/public_html/dashboard/functions.php on line 484
+[06-Jun-2013 20:52:58 Europe/Helsinki] PHP Fatal error:  Cannot redeclare qa_most_votes_post() (previously declared in /home/avoindat/public_html/dashboard/functions.php:462) in /home/avoindat/public_html/dashboard/functions.php on line 484
+[06-Jun-2013 20:52:59 Europe/Helsinki] PHP Fatal error:  Cannot redeclare qa_most_votes_post() (previously declared in /home/avoindat/public_html/dashboard/functions.php:462) in /home/avoindat/public_html/dashboard/functions.php on line 484
+[06-Jun-2013 20:53:35 Europe/Helsinki] PHP Fatal error:  Cannot redeclare qa_most_votes_post() (previously declared in /home/avoindat/public_html/dashboard/functions.php:462) in /home/avoindat/public_html/dashboard/functions.php on line 484
+[06-Jun-2013 21:13:46 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 21:13:46 Europe/Helsinki] PHP Notice:  Undefined variable: netvotes in /home/avoindat/public_html/dashboard/functions.php on line 472
+[06-Jun-2013 21:25:25 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 21:25:25 Europe/Helsinki] PHP Notice:  Undefined variable: netvotes in /home/avoindat/public_html/dashboard/functions.php on line 472
+[06-Jun-2013 21:25:29 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 21:25:29 Europe/Helsinki] PHP Notice:  Undefined variable: netvotes in /home/avoindat/public_html/dashboard/functions.php on line 472
+[06-Jun-2013 21:27:33 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 21:28:53 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 21:29:04 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:26:35 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:30:32 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:31:11 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:34:12 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:34:58 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:35:33 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:35:47 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:36:06 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:37:21 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 471
+[06-Jun-2013 22:38:35 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:38:35 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:38:35 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:38:35 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 22:38:35 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:39:06 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:39:06 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:39:06 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:39:06 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 22:39:06 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:39:31 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:39:31 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:39:31 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:39:31 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 22:39:31 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:40:12 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:40:12 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:40:12 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:40:12 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 22:40:12 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:42:32 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:42:32 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:42:32 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:42:32 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 22:42:32 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:45:34 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:45:34 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:45:34 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:45:34 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 22:45:34 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:45:59 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:45:59 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 22:45:59 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 22:45:59 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 22:45:59 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:04:57 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:04:57 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:04:57 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:04:57 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:04:57 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:05:05 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:05:05 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:05:05 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:05:05 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:05:05 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:10:51 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:10:51 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:10:51 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:10:51 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:10:51 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:36:44 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:36:44 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:36:44 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:36:44 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:36:44 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:38:25 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:38:25 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:38:25 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:38:25 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:38:25 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:41:08 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:41:08 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:41:08 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:41:08 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:41:08 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:41:39 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:41:39 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:41:39 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:41:39 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:41:39 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:42:17 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:42:17 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:42:17 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:42:17 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:42:17 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:49:32 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:49:32 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[06-Jun-2013 23:49:32 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[06-Jun-2013 23:49:32 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[06-Jun-2013 23:49:32 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 00:07:14 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 00:07:14 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 00:07:14 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 00:07:14 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 00:07:14 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 00:19:21 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 00:19:21 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 00:19:21 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 00:19:21 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 00:19:21 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 07:51:21 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 07:51:21 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 07:51:21 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 07:51:21 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 07:51:21 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 07:51:46 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 07:51:46 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 07:51:46 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 07:51:46 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 07:51:46 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 09:08:01 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 09:08:01 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 09:08:01 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 09:08:01 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 09:08:01 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 12:17:53 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 12:17:53 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 12:17:53 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 12:17:53 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 12:17:53 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 15:12:42 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 15:12:42 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 15:12:42 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 15:12:42 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 15:12:42 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 15:18:27 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 15:18:27 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 15:18:27 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 15:18:27 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 15:18:27 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 15:19:34 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 15:19:34 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 15:19:34 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 15:19:34 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 15:19:34 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:48:38 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:48:38 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:48:38 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:48:38 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:48:38 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:48:47 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:48:47 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:48:47 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:48:47 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:48:47 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:49:03 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:49:03 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:49:03 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:49:03 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:49:03 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:53:07 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:53:07 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:53:07 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:53:07 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:53:07 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:54:17 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:54:17 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:54:17 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:54:17 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:54:17 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:55:06 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:55:06 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:55:06 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:55:06 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:55:06 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:56:06 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:56:06 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:56:06 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:56:06 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:56:06 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:57:16 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:57:16 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:57:16 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:57:16 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:57:16 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:57:21 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:57:21 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:57:21 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:57:21 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:57:21 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:57:36 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:57:36 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:57:36 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:57:36 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:57:36 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:58:15 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:58:15 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:58:15 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:58:15 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:58:15 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:59:58 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:59:58 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 16:59:58 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 16:59:58 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 16:59:58 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:01:10 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:01:10 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:01:10 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:01:10 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 17:01:10 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:01:48 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:01:48 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:01:48 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:01:48 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 17:01:48 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:02:46 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:02:46 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:02:46 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:02:46 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 17:02:46 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:32:19 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:32:19 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 464
+[07-Jun-2013 17:32:19 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:32:19 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 474
+[07-Jun-2013 17:32:19 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 473
+[07-Jun-2013 17:54:48 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 17:54:48 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 17:54:48 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 17:54:48 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 17:54:48 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 17:57:52 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 17:57:52 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 17:57:52 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 17:57:52 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 17:57:52 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:02:50 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:02:50 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:02:50 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:02:50 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 18:02:50 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:08:36 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:08:36 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:08:36 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:08:36 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 18:08:36 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:11:11 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:11:11 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:11:11 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:11:11 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 18:11:11 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:59:30 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:59:30 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 18:59:30 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 18:59:30 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 18:59:30 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:01:45 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:01:45 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:01:45 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:01:45 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 19:01:45 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:07:24 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:07:24 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:07:24 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:07:24 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 19:07:24 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:07:54 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:07:54 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:07:54 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:07:54 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 19:07:54 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:08:41 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:08:41 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:08:41 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:08:41 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 19:08:41 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:55:33 Europe/Helsinki] PHP Notice:  Undefined variable: posts in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:55:33 Europe/Helsinki] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/avoindat/public_html/dashboard/functions.php on line 466
+[07-Jun-2013 19:55:33 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475
+[07-Jun-2013 19:55:33 Europe/Helsinki] PHP Notice:  Undefined variable: ret in /home/avoindat/public_html/dashboard/functions.php on line 476
+[07-Jun-2013 19:55:33 Europe/Helsinki] PHP Notice:  Undefined variable: handle in /home/avoindat/public_html/dashboard/functions.php on line 475

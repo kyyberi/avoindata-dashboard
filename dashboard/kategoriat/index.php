@@ -221,7 +221,7 @@ $(function () {
 					<h3>Ylläpito</h3>
 
 					<p>Projektin aikana on tehty <a target="new" href="http://www.question2answer.org/">Question2Answer</a> käyttöliittymän <a target="new" href="https://github.com/kyyberi/qa-fi-FI">suomennos</a>, joka on kontribuoitu takaisin.</p>
-					<p>Dashboard on avoimen lähdekoodin projekti.</p>
+					<p><a href="https://github.com/kyyberi/avoindata-dashboard">Dashboard</a> on avoimen lähdekoodin projekti.</p>
 					<img src="http://avoindata.net/dashboard/images/githublogo.jpg" style="width:60%;margin-bottom:10px;"/> 
 					<p>Vastuullinen ylläpitäjä:
 					<ul class="list1">
